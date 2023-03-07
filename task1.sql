@@ -19,7 +19,7 @@ values
 (008,"Gettika","Chouhan",90000,"2014-02-20 09:00:00","Admin");
 Q1:select First_name as WORKER_NAME from workertab;
 Q2:select position("a" IN First_name) as matchedposition from workertab where First_name="Amitabh";
-Q3:select replace(First_name,"a","A") as First_name from workertab;
+Q3:select replace(First_name,"A","a") as First_name from workertab;
 Q4:select First_name from workertab order by First_name;
 Q5:select *from workertab order by First_name asc,Department desc;
 Q6:select * from workertab where First_name="satish" or First_name="vipul";
